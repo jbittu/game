@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b548f5;
+  }
+  
+  #start-screen,
+  #game-over-screen {
+    text-align: center;
+    width: 800px;
+    height: 400px;
+
+  }
+  
+  #game-area {
+    display: none;
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background-color: #88f584;
+    margin: 20px auto;
+    border: 2px solid #f5a7a7;
+  }
+  
+  #player-paddle,
+  #computer-paddle {
+    position: absolute;
+    width: 15px;
+    height: 80px;
+    background-color: rgb(108, 122, 252);
+  }
+  
+  #player-paddle {
+    left: 10px;
+  }
+  
+  #computer-paddle {
+    right: 10px;
+  }
+  
+  #ball {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(233, 22, 22);
+    border-radius: 50%;
+  }
+  
+  #player-score,
+  #computer-score {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  #player-score {
+    left: 20px;
+  }
+  
+  #computer-score {
+    right: 20px;
+  }
+  
+  #game-over-screen {
+    display: none;
+  }
+  
+  #game-over-screen h2 {
+    color: white;
+    font-size: 30px;
+  }
+  
+  #game-over-screen button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
